@@ -14,3 +14,11 @@ java.util.spliterators
                         > java.util.abstract_set
                           > java.util.set
                             > java.util.collection
+                              + -> [1]
+
+[1]
+> java.util.stream.stream_support
+  > java.util.stream.reference_pipeline
+    > java.util.stream.abstract_pipeline
+      + java.util.stream.pipeline_helper
+      + java.util.stream.base_stream

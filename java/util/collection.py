@@ -51,4 +51,33 @@ class Collection(ABC, Iterable):
         removed = False
         each = self.iterator()
         while each.has_next():
-            if 
+            if filter.test(each.next()):
+                each.remove()
+                removed = True
+        return removed
+    
+    @abstractmethod
+    def retain_all(self, c):
+        ...
+    
+    @abstractmethod
+    def clear(self):
+        ...
+    
+    @abstractmethod
+    def equals(self, o):
+        ...
+    
+    __eq__ = equals
+
+    @abstractmethod
+    def hash_code(self):
+        ...
+    
+    __hash__ = hash_code
+
+    def spliterator(self):
+        return Spliterators.spliterator(self, 0)
+    
+    def stream(self):
+        
