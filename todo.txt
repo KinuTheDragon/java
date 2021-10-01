@@ -1,4 +1,9 @@
-finish java.util.spliterators
-finish java.util.spliterator
-finish java.util.stream.tripwire
-finish java.lang.boolean
+java.util.spliterators
+> java.util.spliterator
+  > java.util.stream.tripwire
+    > java.lang.boolean
+      > java.lang.vm_class_loader
+        > java.net.url
+          > java.lang.security_manager
+            > java.security.security
+              > sun.security.util.debug

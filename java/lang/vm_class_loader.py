@@ -1,0 +1,2 @@
+class VMClassLoader:
+    pass
