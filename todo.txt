@@ -20,5 +20,4 @@ java.util.spliterators
 > java.util.stream.stream_support
   > java.util.stream.reference_pipeline
     > java.util.stream.abstract_pipeline
-      + java.util.stream.pipeline_helper
-      + java.util.stream.base_stream
+      + java.util.function.supplier
