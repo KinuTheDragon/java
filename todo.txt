@@ -7,3 +7,10 @@ java.util.spliterators
           > java.lang.security_manager
             > java.security.security
               > sun.security.util.debug
+                > java.security.access_controller
+                  > java.security.vm_access_controller
+                    > java.security.code_source
+                      > java.util.hash_set
+                        > java.util.abstract_set
+                          > java.util.set
+                            > java.util.collection
