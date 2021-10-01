@@ -1,0 +1,4 @@
+finish java.util.spliterators
+finish java.util.spliterator
+finish java.util.stream.tripwire
+finish java.lang.boolean
